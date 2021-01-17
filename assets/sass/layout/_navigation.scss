@@ -1,0 +1,46 @@
+//navegación menu principal
+.navigation-bar {
+    background-color: $eerie-black !important;
+    font-family: $roboto;
+  
+    &__brand {
+      height: auto;
+      width: 30%;
+      margin-left: 2rem;
+      margin-top: 0.8rem;
+      margin-bottom: 0.8rem;
+      vertical-align: middle;
+
+
+      @include media(lg) {
+        margin-left: 8rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        vertical-align: middle;
+      }
+    }
+}
+
+.navbar-nav {
+  padding-right: 8rem;
+}
+
+
+
+ .nav-link {
+    color: $white !important;
+  }
+
+  .active .nav-link {
+    color: $ruddy-pink !important;
+  } 
+
+//navegación pág post
+  .navigation-pages {
+    background-color: $platinum;
+  
+    &__wrapper {
+      margin: 50px auto;
+      width: fit-content;
+    }
+  }

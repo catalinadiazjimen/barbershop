@@ -1,0 +1,46 @@
+//font-family
+$roboto: 'Roboto', sans-serif;
+$roboto-light: 300;
+$roboto-regular: 400;
+
+$playfair: 'Playfair Display', serif;
+$playfair-bold: 400;
+$playfair-black: 900;
+$playfair-italic: italic;
+
+
+//size typography
+$font-size-xx-large: 4.375rem;
+$font-size-x-large: 3rem;
+$font-size-large: 2rem;
+$font-size-medium: 1rem;
+$font-size-small: 0.75rem;
+
+//color
+$white: #fff;
+$platinum: #E6E7E7;
+$light-gray: #D1D1D1;
+$fuzzy-wuzzy: #E56353;
+$ruddy-pink: #D76C69;
+$spanish-pink: #ECBCBA;
+$eerie-black: #121619;
+$raisin-black: #222323;
+$nickel: #6C6E70;
+
+
+//fonts-abreb
+$primary-font: $roboto;
+$primary-font-light: $roboto-light;
+$primary-font-regular: $roboto-regular;
+$secondary-font: $playfair;
+$secondary-font-bold: $playfair-bold;
+$secondary-font-black: $playfair-black;
+$secondary-font-italic: $playfair-italic;
+
+
+// laptop breakpoints
+
+$breakpoint-xs: 360px;
+$breakpoint-sm: 767px;
+$breakpoint-md: 1023px;
+$breakpoint-lg: 1360px;

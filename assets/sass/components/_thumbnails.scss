@@ -1,0 +1,19 @@
+.thumbnail {
+    text-align: center;
+  
+    &__image {
+      border-radius: 50%;
+      height: auto;
+      width: 120px;
+  
+      @include media(lg) {
+        width: 150px;
+      }
+    }
+  
+    @include media(lg) {
+      display: inline-table;
+      text-align: left;
+      vertical-align: middle;
+    }
+  }

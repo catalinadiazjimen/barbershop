@@ -1,0 +1,11 @@
+@import './vendors/scss/bootstrap.scss';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'base/reset';
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'components/buttons';
+@import 'components/thumbnails';
+@import 'components/paginator';
+@import 'pages/index';

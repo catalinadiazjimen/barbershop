@@ -1,0 +1,101 @@
+.container-fluid {
+    padding: 0;
+  }
+
+.row {
+    margin: 0 2rem 0 2rem;
+
+    @include media(lg){
+        margin: 0 4rem 0 4rem; 
+    }
+ }
+
+  .post {
+    font-size: $font-size-medium;
+  
+  
+    &__date {
+      color: $nickel;
+      font-family: $secondary-font;
+      margin-top: 2.5rem;
+    }
+  
+    &__text {
+      font-family: $roboto;
+      font-weight: 300;
+      line-height: 3rem;
+      margin: 2.5rem 0 2.5rem 0;
+    }
+
+    &__text-span {
+        color: $ruddy-pink;
+    }
+  
+    &__social {
+      height: 50px;
+      margin: 50px 0;
+      text-align: center;
+  
+      @include media(lg) {
+        text-align: left;
+      }
+    }
+  
+    @include media(lg) {
+      padding: 40px 60px 0;
+    }
+  }
+
+  .related {
+    border: 1px solid $platinum;
+    padding: 50px;
+  
+    &__info {
+      padding: 2px 0 0;
+      text-align: center;
+  
+      @include media(lg) {
+        display: inline-table;
+        margin: 0 0 0 30px;
+        padding: 0;
+        text-align: left;
+        vertical-align: middle;
+        width: 180px;
+      }
+    }
+  
+    &__name {
+      color: $eerie-black;
+      font-family: $secondary-font;
+      font-size: $font-size-large;
+      font-style: $secondary-font-italic;
+      font-weight: $secondary-font-black;
+      line-height: 3rem;
+    }
+
+    &__social, &__site  {
+        color: $ruddy-pink;
+        font-family: $roboto;
+        font-weight: 300;
+        line-height: 1.2rem;
+    }
+  
+    &__name, &__social, &__site {
+        display: block;
+    }
+
+    &__bio {
+        display: none;
+        font-family: $roboto;
+        font-weight: 400;
+        font-size: $font-size-medium;
+        line-height: 2rem;
+        
+      @include media(lg) {
+        margin: 0 0 0 50px;
+        display: inline-table;
+        vertical-align: middle;
+        width: calc(100% - 430px)
+      }
+    }
+  }

@@ -1,0 +1,43 @@
+.header {
+    background-image: url('/Users/catalinadiazjimenez/Documents/Frontend /desafiobarbershop/assets/images/post-image.jpg');
+    background-position: center;
+    background-size: cover;
+    color: $white;
+    display: table;
+    font-family: $secondary-font;
+    font-size: $font-size-x-large;
+    font-style: $secondary-font-italic;
+    font-weight: $secondary-font-black;
+    height: 600px;
+    text-align: center;
+
+    @include media(lg) {
+      font-size: $font-size-xx-large;
+    }
+
+    &__text {
+      display: table-cell;
+      vertical-align: auto;
+      line-height: 3.5rem;
+      padding: 0 1.5rem 0 1.5rem;
+      padding-top: 12rem;
+    
+
+      @include media(lg) { 
+        padding: 0 20rem 0 20rem;
+        line-height : 5rem;
+        padding-top: 10rem;
+      }
+    }
+
+    &__arrow {
+        padding-top: 12rem;
+
+        @include media(lg){
+          padding-top:13rem;
+        }
+    } 
+
+  }
+
+  
